@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link type="text/css" rel="stylesheet" href="diseno.css">
+        <title>
+            Clientes Formulario
+        </title>
+    </head>
+    <body>
+        <div class="buscarcliente">
+            <h1>Buscar cliente</h1>
+            <form method="post" action="buscadorx.php">
+                <strong>Ingresa tu busqueda: </strong> 
+                <input type="text" name="busqueda" size="20"><br><br> 
+                <input type="submit" value="Buscar" name="buscar"> 
+            </form>
+        </div>
+        
+        <div class="agregarcliente">
+        <h1>Agregar nuevo cliente</h1>
+            <form method="post" action="enviar.php">
+                Nombre   : <input type="Text" name="nombre"><br><br>
+                Direccion: <input type="Text" name="direccion"><br><br>
+                Telefono : <input type="Text" name="telefono"><br><br>
+                E-mail   : <input type="Text" name="email"><br><br>
+                <input type="Submit" name="enviar" value="Aceptar informacion">
+            </form>
+        </div>
+        
+         <div class="elimiar">
+        <form method="post" action="eliminar.php">
+            <strong>Eliminar usuario <br> Ingrese el Email:</strong> 
+            <input type="text" name="correo" size="20"><br><br> 
+            <input type="submit" value="Eliminar" name="eliminar"> 
+        </form>
+        </div>
+        
+        <div class="modificar">
+        <h1>Modificar datos del cliente</h1> 
+        <form method="post" action="modificar.php">
+            Nombre   : <input type="Text" name="nombre"><br><br>
+            Direccion: <input type="Text" name="direccion"><br><br>
+            Telefono : <input type="Text" name="telefono"><br><br>
+            E-mail   : <input type="Text" name="email"><br><br>
+            <input type="Submit" name="enviar" value="Modificar cliente">
+        </form>
+        </div>
+        
+        <div class="consultacliente">
+            <h1>Ver todos los clientes</h1>
+        <form method="post" action="consulta.php">
+            <strong>Clientes: </strong>  
+            <input type="submit" value="Ver todos" name="clientes"> 
+        </form>
+        </div>
+        
+    </body>
+</html>

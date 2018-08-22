@@ -1,0 +1,49 @@
+#tab
+{
+    text-align: center;
+    border: groove 10px green;
+}
+
+.agregarcliente
+{
+    float: left;
+    border: groove 10px green;
+    padding: 2em;
+    
+}
+
+.buscarcliente
+{
+    position: relative;
+    border: groove 10px green;
+    padding: 2em;
+}
+
+.consultacliente
+{
+    float: left;
+    border: groove 10px green;
+    padding: 2em;
+    position: absolute;
+    top: 232px;
+    left: 850px;
+}
+.elimiar
+{
+    float: right;
+    border: groove 10px green;
+    padding: 2em;
+    position: absolute;
+    top: 417px;
+    left: 850px;
+}
+
+.modificar
+{
+    float: right;
+    border: groove 10px green;
+    padding: 2em;
+    position: absolute;
+    bottom: 62px;
+    left: 400px;
+}
